@@ -125,4 +125,9 @@ public class ArticleController {
 		return "redirect:/articles";
 	}
 
+	@GetMapping("/articles/login")
+	public String loginArticleForm() {
+		return "articles/login";
+	}
+
 }
